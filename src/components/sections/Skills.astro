@@ -1,33 +1,64 @@
 ---
 import Section from "../Section.astro";
 
-import { skills } from "@cv"
+import { skills } from "@cv";
+
+import HTML from "@/icons/html.astro";
+import CSS from "@/icons/css.astro";
+import JavaScript from "@/icons/javascript.astro";
+import Git from "@/icons/git.astro";
+import GitHub from "@/icons/GitHub.astro";
+import Tailwind from "@/icons/tailwind.astro";
+import Figma from "@/icons/figma.astro";
+import AdobeXD from "@/icons/adobe.astro";
+import Office from "@/icons/office.astro";
+
+const SKILLS_ICONS: Record<string, any> = {
+  HTML,
+  CSS,
+  JavaScript,
+  Git,
+  GitHub,
+  Tailwind,
+  Figma,
+  AdobeXD,
+  Office,
+};
 ---
-<Section title="Skills">
-    <ul>
-        {
-            skills.map(({name}) => (
-                <li>
-                    <span>{name}</span>
-                </li>
-            ))
-        }
-    </ul>
+
+<Section title="Habilidades">
+  <ul>
+    {
+      skills.map(({ name }) => {
+        const iconName = name === "Next.js" ? "Next" : name;
+        const Icon = SKILLS_ICONS[iconName];
+
+        return (
+          <li>
+            {Icon && <Icon />} <span>{name}</span>
+          </li>
+        );
+      })
+    }
+  </ul>
 </Section>
 
 <style>
-    ul{
-        display: inline-flex;
-        gap: 8px;
-        flex-wrap: wrap;
-    }
+  ul {
+    display: inline-flex;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
 
-    li{
-        border-radius: 6px;
-        background: #ebe5e5;
-        color: black;
-        font-size: 0.8rem;
-        font-weight: 500;
-        padding: 0.2rem 0.6rem;
-    }
+  li {
+    align-items: center;
+    background: #eee;
+    border-radius: 6px;
+    color: black;
+    display: flex;
+    font-size: 0.8rem;
+    font-weight: 500;
+    gap: 4px;
+    padding: 0.2rem 0.6rem;
+  }
 </style>
