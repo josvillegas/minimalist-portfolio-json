@@ -8,7 +8,7 @@ import LinkedIn from "@/icons/LinkedIn.astro";
 import GitHub from "@/icons/GitHub.astro";
 import WorldMap from "@/icons/WorldMap.astro";
 
-const { name, label, image, location, profiles, phone, email } = basics;
+const { name, label, url, image, location, profiles, phone, email } = basics;
 const { city, region } = location;
 
 const SOCIAL_ICONS: Record<string, any> = {
@@ -28,8 +28,8 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" &bull; ");
     <div class="info">
       <h1>{name}</h1>
       <h2>{label}</h2>
-      <span>
-        <WorldMap />
+      <span class="site">
+        <a class="site-link" href=`${url}` target="_blank"><WorldMap /></a>
         {city}, {region}
       </span>
       <footer class="print">
@@ -91,6 +91,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" &bull; ");
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
+    flex-wrap: wrap;
   }
   .info {
     display: flex;
@@ -120,6 +121,14 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" &bull; ");
     gap: 0.25rem;
     font-size: 0.85rem;
     letter-spacing: -0.05rem;
+  }
+  .site-link {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: inherit;
   }
   footer {
     color: #555;

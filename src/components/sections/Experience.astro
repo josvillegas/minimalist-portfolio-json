@@ -18,15 +18,15 @@ import { work } from "@cv";
               <article>
                 <header>
                   <div>
-                    <h3>
+                    <h3>{position}</h3>
+                    <h4>
                       <a href={url} title={`Ver ${name}`} target="_blank">
                         {name}
                       </a>
-                    </h3>
-                    <h4>{position}</h4>
+                    </h4>
                   </div>
 
-                  <div>
+                  <div class="time">
                     <time datetime={startDate} data-title={startDate}>
                       {startYear}
                     </time>
@@ -53,7 +53,10 @@ import { work } from "@cv";
   ul {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+  }
+
+  li {
+    margin-bottom: 20px;
   }
 
   article h3 {
@@ -77,8 +80,14 @@ import { work } from "@cv";
   header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: start;
     margin-bottom: 4px;
+    flex-wrap: wrap;
+    gap: 2px;
+  }
+
+  .time {
+    margin-bottom: 2px;
   }
 
   time {

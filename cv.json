@@ -1,7 +1,7 @@
 {
   "basics": {
-    "name": "Jos Lee Villegas Pacheco",
-    "label": "Diseñador UI y Maquetar Web con más de 2 años de experiencia",
+    "name": "Jos Lee Josue Villegas Pacheco",
+    "label": "Diseñador UI y Maquetador Web con más de 2 años de experiencia",
     "image": "me.jpg",
     "email": "josvillegas@gmail.com",
     "phone": "+51 953200525",
@@ -34,18 +34,18 @@
   },
   "work": [
     {
-      "name": "Sistema de Prácticas Pre Prosionales",
+      "name": "Sistema de Prácticas Pre Profesionales",
       "position": "Desarrollador Web",
-      "url": "https://twitch.tv/midudev",
+      "url": "",
       "startDate": "2018-03-01",
       "endDate": "2019-03-01",
       "summary": "Implementé el módulo de seguimiento para estudiantes en proceso de prácticas pre profesionales en el sistema PPP de la Universidad Peruana Unión ",
       "highlights": ["Started the company"]
     },
     {
-      "name": "Dictado de Taller UI",
-      "position": "Docente",
-      "url": "https://twitch.tv/midudev",
+      "name": "Dictado de Taller UI Desing",
+      "position": "Diseñador UI",
+      "url": "",
       "startDate": "2020-03-12",
       "endDate": "2023-12-20",
       "summary": "Encargado de dictar el curso taller de UI Design en el colegio Sollertia, fomenté el Diseño de Sitios Web o aplicaciones móbiles como ayuda a las soluciones propuestas de cada alumno impulsando el uso de su creatividad",
@@ -53,7 +53,8 @@
     },
     {
       "name": "Dictado de Taller Desarrollo Web",
-      "position": "Docente",
+      "position": "Maquetador Web",
+      "url": "",
       "startDate": "2020-03-12",
       "endDate": "2023-12-20",
       "summary": "Encargado de dictar el curso taller de Desarrollo Web en el colegio Sollertia, fomenté la creación de Sitios Web previamente diseñados por cada estudiantes impulsando su lógica y creatividad mediante el uso de código HTML y CSS",
@@ -74,7 +75,7 @@
   "education": [
     {
       "institution": "Universidad Peruana Unión",
-      "url": "https://www.uoc.edu/portal/es/index.html",
+      "url": "",
       "area": "Ingeniera de Sistemas",
       "studyType": "Bachelor",
       "startDate": "2015-08-15",
@@ -198,37 +199,45 @@
       "isActive": true,
       "description": "Sitio web de la academia deportiva JVC",
       "highlights": ["Astro & Tailwind", "Código"],
-      "url": "https://mars.codes"
+      "url": "https://academiajvc.vercel.app/",
+      "github": "https://github.com/josvillegas/academiajvc",
+      "figma": "https://github.com/josvillegas/academiajvc"
     },
     {
       "name": "Sport UPeU",
       "isActive": true,
       "description": "App con la información de cada evento deportivo UPeU como: fixture, posiciones, etc",
-      "highlights": ["Flutter", "Código"],
-      "url": "https://adventjs.dev"
+      "highlights": ["Figma", "UI Design"],
+      "url": "",
+      "github": "",
+      "figma": ""
     },
     {
       "name": "Clinica UI",
       "isActive": true,
       "description": "Diseño de sitio Web para una clínica",
       "highlights": ["Figma", "UI Design"],
-      "url": "https://codember.dev"
+      "url": "",
+      "github": "",
+      "figma": ""
     },
     {
       "name": "Recetas Mecy",
       "isActive": true,
       "description": "App que muestra las recetas de cada comida hechas por mamá",
-      "highlights": ["Flutter", "Código"],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
+      "highlights": ["Figma", "UI Design"],
+      "url": "",
+      "github": "",
+      "figma": ""
     },
     {
       "name": "PPP UI",
       "isActive": true,
       "description": "Diseño del sistema web para Prácticas Pre Profesionales",
       "highlights": ["Figma", "UI Design"],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
+      "url": "",
+      "github": "",
+      "figma": ""
     }
   ]
 }

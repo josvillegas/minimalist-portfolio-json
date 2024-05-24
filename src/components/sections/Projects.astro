@@ -1,5 +1,6 @@
 ---
 import GitHub from "@/icons/GitHub.astro";
+import Figma from "@/icons/figma.astro";
 import Section from "../Section.astro";
 
 import { projects } from "@cv";
@@ -9,7 +10,7 @@ import { projects } from "@cv";
   <ul>
     {
       projects.map(
-        ({ url, description, highlights, name, isActive, github }) => {
+        ({ url, description, highlights, name, isActive, github, figma }) => {
           return (
             <li>
               <article>
@@ -31,6 +32,16 @@ import { projects } from "@cv";
                         title={`Ver código fuente del proyecto ${name}`}
                       >
                         <GitHub />
+                      </a>
+                    )}
+                    {figma && (
+                      <a
+                        class="figma-code-link"
+                        href={figma}
+                        target="_blank"
+                        title={`Ver código fuente del proyecto ${name}`}
+                      >
+                        <Figma />
                       </a>
                     )}
                   </h3>
@@ -115,6 +126,10 @@ import { projects } from "@cv";
   }
 
   .github-code-link {
+    margin-left: 5px;
+  }
+
+  .figma-code-link {
     margin-left: 5px;
   }
 
