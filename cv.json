@@ -26,6 +26,11 @@
         "url": "https://x.com/josvillegas97"
       },
       {
+        "network": "Ats",
+        "username": "josvillegas97",
+        "url": "https://ats-jos-cv.vercel.app/"
+      },
+      {
         "network": "GitHub",
         "username": "josvillegas",
         "url": "https://github.com/josvillegas"
@@ -63,50 +68,50 @@
   ],
   "volunteer": [
     {
-      "organization": "Organization",
-      "position": "Volunteer",
-      "url": "https://organization.com/",
-      "startDate": "2012-01-01",
-      "endDate": "2013-01-01",
-      "summary": "Description…",
-      "highlights": ["Awarded 'Volunteer of the Month'"]
+      "organization": "",
+      "position": "",
+      "url": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
+      "highlights": [""]
     }
   ],
   "education": [
     {
       "institution": "Universidad Peruana Unión",
       "url": "",
-      "area": "Ingeniera de Sistemas",
-      "studyType": "Bachelor",
+      "area": "Ingeniería de Sistemas",
+      "studyType": "Bachiller",
       "startDate": "2015-08-15",
       "endDate": "2020-09-20",
       "score": "4.0",
-      "courses": ["Ingeniera de Sistemas"]
+      "courses": ["Ingeniería de Sistemas"]
     }
   ],
   "awards": [
     {
       "title": "Excelencia Académica",
       "date": "2020-09-13",
-      "awarder": "Excelncia",
+      "awarder": "Excelencia",
       "summary": "Mejor estudiante en el semestre 2020-2 de la UPeU"
     }
   ],
   "certificates": [
     {
-      "name": "UX UI Designer",
-      "date": "2021-11-07",
-      "issuer": "IDAT",
-      "url": "https://certificate.com"
+      "name": "",
+      "date": "",
+      "issuer": "",
+      "url": ""
     }
   ],
   "publications": [
     {
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "https://publication.com",
-      "summary": "Description…"
+      "name": "",
+      "publisher": "",
+      "releaseDate": "",
+      "url": "",
+      "summary": ""
     }
   ],
   "skills": [
@@ -183,25 +188,33 @@
   ],
   "interests": [
     {
-      "name": "Wildlife",
+      "name": "Deportes",
+      "keywords": ["Ferrets", "Unicorns"]
+    },
+    {
+      "name": "Viajes",
+      "keywords": ["Ferrets", "Unicorns"]
+    },
+    {
+      "name": "Animales",
       "keywords": ["Ferrets", "Unicorns"]
     }
   ],
   "references": [
     {
-      "name": "Jane Doe",
-      "reference": "Reference…"
+      "name": "",
+      "reference": ""
     }
   ],
   "projects": [
     {
-      "name": "AcademiJVC",
+      "name": "AcademiaJVC",
       "isActive": true,
       "description": "Sitio web de la academia deportiva JVC",
       "highlights": ["Astro & Tailwind", "Código"],
-      "url": "https://academiajvc.vercel.app/",
-      "github": "https://github.com/josvillegas/academiajvc",
-      "figma": "https://github.com/josvillegas/academiajvc"
+      "url": "",
+      "github": "",
+      "figma": ""
     },
     {
       "name": "Sport UPeU",
@@ -224,7 +237,7 @@
     {
       "name": "Recetas Mecy",
       "isActive": true,
-      "description": "App que muestra las recetas de cada comida hechas por mamá",
+      "description": "App que muestra las recetas de cada comida hechas por ...",
       "highlights": ["Figma", "UI Design"],
       "url": "",
       "github": "",
