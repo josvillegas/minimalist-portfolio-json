@@ -20,7 +20,7 @@ import { education } from "@cv";
                 <div>
                   <h3>{institution}</h3>
                 </div>
-                <time>{years}</time>
+                <div class="time">{years}</div>
               </header>
               <footer>
                 <p>{area}</p>
@@ -37,7 +37,10 @@ import { education } from "@cv";
   ul {
     display: flex;
     flex-direction: column;
-    gap: 32px;
+  }
+
+  li {
+    margin-bottom: 20px;
   }
 
   article h3 {
@@ -51,12 +54,11 @@ import { education } from "@cv";
     align-items: flex-start;
     margin-bottom: 4px;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 2px;
   }
 
-  time {
+  .time {
     color: #555;
     font-size: 0.85rem;
-    min-width: 102px;
   }
 </style>

@@ -4,6 +4,7 @@ import Section from "@/components/Section.astro";
 import Mail from "@/icons/Mail.astro";
 import Phone from "@/icons/Phone.astro";
 import X from "@/icons/X.astro";
+import Ats from "@/icons/Ats.astro";
 import LinkedIn from "@/icons/LinkedIn.astro";
 import GitHub from "@/icons/GitHub.astro";
 import WorldMap from "@/icons/WorldMap.astro";
@@ -15,6 +16,7 @@ const SOCIAL_ICONS: Record<string, any> = {
   GitHub,
   LinkedIn,
   X,
+  Ats,
 };
 
 const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
@@ -63,7 +65,6 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" &bull; ");
         {
           profiles.map(({ network, url, username }) => {
             const Icon = SOCIAL_ICONS[network];
-
             return (
               <a
                 href={url}
@@ -91,7 +92,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" &bull; ");
     align-items: center;
     justify-content: space-between;
     gap: 1rem;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
   }
   .info {
     display: flex;

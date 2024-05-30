@@ -16,13 +16,7 @@ import { projects } from "@cv";
               <article>
                 <header>
                   <h3>
-                    <a
-                      href={url}
-                      target="_blank"
-                      title={`Ver el proyecto ${name}`}
-                    >
-                      {name}
-                    </a>
+                    <a title={`Ver el proyecto ${name}`}>{name}</a>
                     {isActive && <span>•</span>}
                     {github && (
                       <a
@@ -89,10 +83,6 @@ import { projects } from "@cv";
 
   article a {
     color: #111;
-  }
-
-  article a:hover {
-    text-decoration: underline;
   }
 
   article p {
