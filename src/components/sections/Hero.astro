@@ -31,7 +31,13 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" &bull; ");
       <h1>{name}</h1>
       <h2>{label}</h2>
       <span class="site">
-        <a class="site-link" href=`${url}` target="_blank"><WorldMap /></a>
+        <a
+          class="site-link"
+          href=`${url}`
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Jos Dev"><WorldMap /></a
+        >
         {city}, {region}
       </span>
       <footer class="print">
