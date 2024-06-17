@@ -18,6 +18,7 @@ import { projects } from "@cv";
                   <h3>
                     <a
                       href={url}
+                      target="_blank"
                       title={`Ver el proyecto ${name}`}
                       rel="noopener noreferrer"
                     >
@@ -91,6 +92,9 @@ import { projects } from "@cv";
 
   article a {
     color: #111;
+  }
+  article a:hover {
+    text-decoration: underline;
   }
 
   article p {

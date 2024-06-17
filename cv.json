@@ -1,11 +1,11 @@
 {
   "basics": {
     "name": "Jos Lee Josue Villegas Pacheco",
-    "label": "Diseñador UI y Maquetador Web con más de 2 años de experiencia",
-    "image": "me.jpg",
+    "label": "Diseñador UI y Web",
+    "image": "perfilcv.webp",
     "email": "josvillegas@gmail.com",
     "phone": "+51 953200525",
-    "url": "https://josvillegas.dev",
+    "url": "https://jos-porfolio-dev.vercel.app/",
     "summary": "+2 años de experiencia como diseñador UI con proyectos propios y el dictado del curso a estudiantes de secundaria.",
     "location": {
       "address": "Av 5A lote J ",
@@ -26,11 +26,6 @@
         "url": "https://x.com/josvillegas97"
       },
       {
-        "network": "Ats",
-        "username": "josvillegas97",
-        "url": "https://ats-jos-cv.vercel.app/"
-      },
-      {
         "network": "GitHub",
         "username": "josvillegas",
         "url": "https://github.com/josvillegas"
@@ -39,30 +34,27 @@
   },
   "work": [
     {
-      "name": "Sistema de Prácticas Pre Profesionales",
-      "position": "Desarrollador Web",
-      "url": "",
-      "startDate": "2018-03-01",
-      "endDate": "2019-03-01",
-      "summary": "Implementé el módulo de seguimiento para estudiantes en proceso de prácticas pre profesionales en el sistema PPP de la Universidad Peruana Unión ",
-      "highlights": ["Started the company"]
-    },
-    {
       "name": "Dictado de Taller UI Desing",
       "position": "Diseñador UI",
-      "url": "",
-      "startDate": "2020-03-12",
+      "startDate": "2021-03-12",
       "endDate": "2023-12-20",
-      "summary": "Encargado de dictar el curso taller de UI Design en el colegio Sollertia, fomenté el Diseño de Sitios Web o aplicaciones móbiles como ayuda a las soluciones propuestas de cada alumno impulsando el uso de su creatividad",
+      "summary": "Encargado de dictar el curso taller de UI Design en el colegio Sollertia, fomenté el Diseño de sitios web o aplicaciones móbiles como ayuda a las soluciones propuestas de cada alumno impulsando el uso de su creatividad",
       "highlights": ["Started the company"]
     },
     {
       "name": "Dictado de Taller Desarrollo Web",
-      "position": "Maquetador Web",
-      "url": "",
-      "startDate": "2020-03-12",
+      "position": "Diseñador Web",
+      "startDate": "2021-03-12",
       "endDate": "2023-12-20",
-      "summary": "Encargado de dictar el curso taller de Desarrollo Web en el colegio Sollertia, fomenté la creación de Sitios Web previamente diseñados por cada estudiantes impulsando su lógica y creatividad mediante el uso de código HTML y CSS",
+      "summary": "Encargado de dictar el curso taller de Desarrollo Web en el colegio Sollertia, fomenté la creación de sitios web previamente diseñados por cada estudiantes impulsando su lógica y creatividad mediante el uso de código HTML y CSS",
+      "highlights": ["Started the company"]
+    },
+    {
+      "name": "Sistema de Prácticas Pre Profesionales",
+      "position": "Desarrollador Web",
+      "startDate": "2018-03-01",
+      "endDate": "2019-03-01",
+      "summary": "Implementé el módulo de seguimiento para estudiantes en proceso de prácticas pre profesionales en el sistema PPP de la Universidad Peruana Unión ",
       "highlights": ["Started the company"]
     }
   ],
@@ -156,21 +148,6 @@
       "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
     },
     {
-      "name": "Git",
-      "level": "Avanzado",
-      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
-    },
-    {
-      "name": "GitHub",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones",
-        "Colaboración",
-        "Código Fuente",
-        "Git"
-      ]
-    },
-    {
       "name": "Office",
       "level": "Avanzado",
       "keywords": ["Word", "Excel", "Power Point"]
@@ -212,7 +189,7 @@
       "isActive": true,
       "description": "Sitio web de la academia deportiva JVC",
       "highlights": ["Astro & Tailwind", "Código"],
-      "url": "",
+      "url": "#",
       "github": "",
       "figma": ""
     },
@@ -221,34 +198,34 @@
       "isActive": true,
       "description": "App con la información de cada evento deportivo UPeU como: fixture, posiciones, etc",
       "highlights": ["Figma", "UI Design"],
-      "url": "",
+      "url": "#",
       "github": "",
-      "figma": ""
+      "figma": "si"
     },
     {
       "name": "Clinica UI",
       "isActive": true,
       "description": "Diseño de sitio Web para una clínica",
       "highlights": ["Figma", "UI Design"],
-      "url": "",
-      "github": "",
-      "figma": ""
+      "url": "https://clinica-jos-dev.vercel.app/",
+      "github": "https://github.com/josvillegas/clinica",
+      "figma": "si"
     },
     {
       "name": "Recetas Mecy",
       "isActive": true,
-      "description": "App que muestra las recetas de cada comida hechas por ...",
+      "description": "App que muestra las recetas realizadas en casa por familiares",
       "highlights": ["Figma", "UI Design"],
-      "url": "",
+      "url": "#",
       "github": "",
-      "figma": ""
+      "figma": "si"
     },
     {
       "name": "PPP UI",
       "isActive": true,
-      "description": "Diseño del sistema web para Prácticas Pre Profesionales",
+      "description": "Diseño del sistema web para Prácticas Pre Profesionales v2",
       "highlights": ["Figma", "UI Design"],
-      "url": "",
+      "url": "#",
       "github": "",
       "figma": ""
     }
