@@ -10,11 +10,31 @@ const { title } = Astro.props;
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Astro description" />
+    <title>{title}</title>
+    <meta
+      name="description"
+      content="Diseñador UI y Web con más de dos años de experiencia en el rubro a través del dictado de talleres a estudiantes de secundaria y la creación de proyectos personales tanto para dispositivos web y móvil"
+    />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
-    <title>{title}</title>
+    <link
+      rel="preload"
+      as="image"
+      href="https://raw.githubusercontent.com/josvillegas/before-push/main/resources/img/previewSEOimg/CVJosSEO.png"
+    />
+
+    <meta
+      property="og:description"
+      content="Diseñador UI y Web con más de dos años de experiencia en el rubro a través del dictado de talleres a estudiantes de secundaria y la creación de proyectos personales tanto para dispositivos web y móvil"
+    />
+    <meta property="og:url" content="https://cv-jos.vercel.app/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="CV - Jos Lee Villegas" />
+    <meta
+      property="og:image"
+      content="https://raw.githubusercontent.com/josvillegas/before-push/main/resources/img/previewSEOimg/CVJosSEO.png"
+    />
   </head>
   <body>
     <slot />

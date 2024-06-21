@@ -3,16 +3,16 @@
     "name": "Jos Lee Josue Villegas Pacheco",
     "label": "Diseñador UI y Web",
     "image": "perfilcv.webp",
-    "email": "josvillegas@gmail.com",
+    "email": "josvillegas97@gmail.com",
     "phone": "+51 953200525",
     "url": "https://jos-porfolio-dev.vercel.app/",
-    "summary": "+2 años de experiencia como diseñador UI con proyectos propios y el dictado del curso a estudiantes de secundaria.",
+    "summary": "+2 años de experiencia en el rubro a través del dictado de talleres a estudiantes de secundaria y la creación de proyectos personales tanto para dispositivos web y móvil.",
     "location": {
       "address": "Av 5A lote J ",
       "postalCode": "08820",
       "city": "Lima",
       "countryCode": "Pe",
-      "region": "Peru"
+      "region": "Perú"
     },
     "profiles": [
       {
@@ -118,11 +118,6 @@
       "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
     },
     {
-      "name": "JavaScript",
-      "level": "Master",
-      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
-    },
-    {
       "name": "Tailwind",
       "level": "Avanzado",
       "keywords": [
@@ -186,9 +181,9 @@
   "projects": [
     {
       "name": "AcademiaJVC",
-      "isActive": true,
-      "description": "Sitio web de la academia deportiva JVC",
-      "highlights": ["Astro & Tailwind", "Código"],
+      "isActive": false,
+      "description": "Sitio web donde se muestra información de la academia deportiva de fútbol JVC",
+      "highlights": ["Astro", "Tailwind", "Code"],
       "url": "#",
       "github": "",
       "figma": ""
@@ -196,17 +191,17 @@
     {
       "name": "Sport UPeU",
       "isActive": true,
-      "description": "App con la información de cada evento deportivo UPeU como: fixture, posiciones, etc",
+      "description": "Propuesta de app con la información de cada evento deportivo UPeU como: fixture, posiciones, etc",
       "highlights": ["Figma", "UI Design"],
-      "url": "#",
-      "github": "",
-      "figma": "si"
+      "url": "/",
+      "github": "https://github.com/josvillegas/app-sport-upeu",
+      "figma": ""
     },
     {
       "name": "Clinica UI",
       "isActive": true,
-      "description": "Diseño de sitio Web para una clínica",
-      "highlights": ["Figma", "UI Design"],
+      "description": "Diseño de sitio Web para una clínica con las secciones importantes y de mayor relevancia",
+      "highlights": ["Figma", "UI Design", "Astro", "Tailwind", "Code"],
       "url": "https://clinica-jos-dev.vercel.app/",
       "github": "https://github.com/josvillegas/clinica",
       "figma": "si"
@@ -215,18 +210,18 @@
       "name": "Recetas Mecy",
       "isActive": true,
       "description": "App que muestra las recetas realizadas en casa por familiares",
-      "highlights": ["Figma", "UI Design"],
-      "url": "#",
-      "github": "",
-      "figma": "si"
+      "highlights": ["Figma", "UI Design", "Flutter", "Code"],
+      "url": "/",
+      "github": "https://github.com/josvillegas/app-recipe-mecy",
+      "figma": ""
     },
     {
-      "name": "PPP UI",
+      "name": "Grand IASD",
       "isActive": true,
-      "description": "Diseño del sistema web para Prácticas Pre Profesionales v2",
+      "description": "Propuesta de app para el adulto mayor de la IASD",
       "highlights": ["Figma", "UI Design"],
       "url": "#",
-      "github": "",
+      "github": "https://github.com/josvillegas/app-iasd-grand",
       "figma": ""
     }
   ]
