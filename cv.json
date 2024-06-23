@@ -181,18 +181,18 @@
   "projects": [
     {
       "name": "AcademiaJVC",
-      "isActive": false,
+      "isActive": true,
       "description": "Sitio web donde se muestra información de la academia deportiva de fútbol JVC",
       "highlights": ["Astro", "Tailwind", "Code"],
-      "url": "#",
-      "github": "",
+      "url": "https://academiajvc.vercel.app/",
+      "github": "https://github.com/josvillegas/academiajvc",
       "figma": ""
     },
     {
       "name": "Sport UPeU",
       "isActive": true,
       "description": "Propuesta de app con la información de cada evento deportivo UPeU como: fixture, posiciones, etc",
-      "highlights": ["Figma", "UI Design"],
+      "highlights": ["Figma", "UI Design", "Flutter", "Code"],
       "url": "/",
       "github": "https://github.com/josvillegas/app-sport-upeu",
       "figma": ""
@@ -219,7 +219,7 @@
       "name": "Grand IASD",
       "isActive": true,
       "description": "Propuesta de app para el adulto mayor de la IASD",
-      "highlights": ["Figma", "UI Design"],
+      "highlights": ["Figma", "UI Design", "Flutter", "Code"],
       "url": "#",
       "github": "https://github.com/josvillegas/app-iasd-grand",
       "figma": ""
