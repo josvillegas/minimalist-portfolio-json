@@ -36,6 +36,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" &bull; ");
           href=`${url}`
           target="_blank"
           rel="noopener noreferrer"
+          title={`Visitar porfolio de ${name}`}
           aria-label="Jos Dev"><WorldMap /></a
         >
         {city}, {region}
@@ -86,7 +87,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" &bull; ");
       </footer>
     </div>
     <figure>
-      <img src={image} alt={name} />
+      <img src={image} alt={name} title={`Imagen de - ${name}`} />
     </figure>
   </div>
 </Section>
